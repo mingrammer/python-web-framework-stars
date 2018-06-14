@@ -60,7 +60,7 @@ def save_ranking(repos):
             if is_deprecated(repo['url']):
                 repo['description'] = warning + repo['description']
             f.write('| [{}]({}) | {} | {} | {} | {} | {} |\n'.format(repo['name'],
-                                                                     repo['url'],
+                                                                     repo['html_url'],
                                                                      repo['stargazers_count'],
                                                                      repo['forks_count'],
                                                                      repo['open_issues_count'],
