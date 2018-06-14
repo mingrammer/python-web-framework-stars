@@ -1,0 +1,16 @@
+https://github.com/django/django
+https://github.com/pallets/flask
+https://github.com/tornadoweb/tornado
+https://github.com/Pylons/pyramid
+https://github.com/falconry/falcon
+https://github.com/web2py/web2py
+https://github.com/bottlepy/bottle
+https://github.com/cherrypy/cherrypy
+https://github.com/channelcat/sanic
+https://github.com/aio-libs/aiohttp
+https://github.com/plotly/dash
+https://github.com/timothycrosley/hug
+https://github.com/pyGrowler/Growler
+https://github.com/TurboGears/tg2
+https://github.com/morepath/morepath
+https://github.com/circuits/circuits
