@@ -32,7 +32,7 @@ def main():
                 if r.status_code != 200:
                     raise ValueError('Can not retrieve from {}'.format(url))
                 repo = json.loads(r.content)
-                
+
                 commit_api = 'https://api.github.com/repos/{}/commits/{}?access_token={}'.format(url[19:], repo['default_branch'], access_token)
                 print(repo_api)
 
@@ -40,10 +40,10 @@ def main():
                 if r.status_code != 200:
                     raise ValueError('Can not retrieve from {}'.format(url))
                 commit = json.loads(r.content)
-                
+
                 repo['last_commit_date'] = commit['commit']['committer']['date']
                 repos.append(repo)
-        
+
         repos.sort(key=lambda r: r['stargazers_count'], reverse=True)
         save_ranking(repos)
 
