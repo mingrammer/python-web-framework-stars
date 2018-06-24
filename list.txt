@@ -14,3 +14,4 @@ https://github.com/pyGrowler/Growler
 https://github.com/TurboGears/tg2
 https://github.com/morepath/morepath
 https://github.com/circuits/circuits
+https://github.com/vibora-io/vibora
