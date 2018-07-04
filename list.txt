@@ -15,3 +15,4 @@ https://github.com/TurboGears/tg2
 https://github.com/morepath/morepath
 https://github.com/circuits/circuits
 https://github.com/vibora-io/vibora
+https://github.com/cannatag/ldap3
